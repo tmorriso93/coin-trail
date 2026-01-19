@@ -59,7 +59,7 @@ export function CashflowContent({
                         content={({ payload }) => (
                             <div className="flex w-full justify-center md:justify-end gap-4 text-sm">
                                 {payload?.map((entry) => (
-                                    <div key={entry.value} className="flex items-center gap-3">
+                                    <div key={entry.value} className="flex items-center gap-2">
                                         <span
                                             className="inline-block size-2.5 rounded-full"
                                             style={{ backgroundColor: entry.color }}
