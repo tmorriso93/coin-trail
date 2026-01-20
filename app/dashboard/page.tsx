@@ -16,7 +16,7 @@ export default async function DasboardPage({
 
   return (
     <div className='max-w-screen-xl mx-auto py-5'>
-      <h1 className='text-4xl font-semibold pb-5'>
+      <h1 className='text-4xl font-semibold pb-5 max-lg:ml-2'>
         Dashboard
       </h1>
       <Cashflow year={cfYear} />

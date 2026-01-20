@@ -93,7 +93,7 @@ export function CashflowContent({
             </div>
              <div className="border-t" />
             <div>
-                <span className="text-muted-foreground font-bold text-sm">Expenses</span>
+                <span className="text-muted-foreground font-bold text-sm">Balance</span>
                 <h2 className={cn("text-3xl font-bold", balance >= 0 ? "text-lime-500" : "text-orange-500"           
                 )}
                 >
